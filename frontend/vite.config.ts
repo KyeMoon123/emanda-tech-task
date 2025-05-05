@@ -8,4 +8,10 @@ export default defineConfig({
     outDir: 'dist',
     emptyOutDir: true,
   },
+  resolve: {
+    alias: [
+      { find: "@/Api", replacement: "/src/api" },
+      { find: "@/Components", replacement: "/src/components" },
+    ],
+  },
 });
