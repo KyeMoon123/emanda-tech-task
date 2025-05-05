@@ -74,6 +74,7 @@ in effort to show a broader range of skills.
 - Add automated tests for frontend and backend.
 - Introduce a persistent database for real-world usage.
 - Documentation for the API and frontend.
+- Add liniting and prettier for code quality and consistency. using pre-commit hooks.
 
 
 ## NOTE: I get an intermittent error when runnning docker-compose up --build. I get errors regarding the sqlite package not being found. Clearing the build folder in /backend and running the command again fixes it. 
